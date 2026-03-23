@@ -1,0 +1,95 @@
+# ===== СЕКРЕТЫ И КОНФИГУРАЦИЯ =====
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.crt
+config.local.json
+
+# ===== ДАННЫЕ И ВЫХОДНЫЕ ФАЙЛЫ =====
+data/logs/*.log
+data/database.db
+data/database.db-shm
+data/database.db-wal
+data/output/*.csv
+data/reports/*.xlsx
+data/input/*.json
+data/input/*.tsv
+data/input/*.csv
+UPLOAD/*.json
+UPLOAD/*.tsv
+UPLOAD/*.csv
+
+# ===== PYTHON =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Виртуальные окружения
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.rbc
+*.rbx
+
+# Тесты и покрытие
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Типизация
+.mypy_cache/
+.pytype/
+
+# ===== ОС =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ===== ВРЕМЕННОЕ =====
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
