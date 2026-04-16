@@ -1,3 +1,5 @@
+![LeadGen v5 Banner](images/banner.png)
+
 # LeadGen v5 — Система автоматизации лидогенерации
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
